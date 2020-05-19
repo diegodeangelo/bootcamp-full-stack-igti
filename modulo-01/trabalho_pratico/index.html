@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho Prático - Módulo 01</title>
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="content">
+      <form method="post">
+        <fieldset>
+          <label for="red">(R) Vermelho:</label>
+          <input
+            type="range"
+            name="red"
+            id="red"
+            min="0"
+            max="255"
+            value="255"
+          />
+          <input type="text" disabled="disabled" value="255" />
+        </fieldset>
+        <fieldset>
+          <label for="green">(G) Verde:</label>
+          <input
+            type="range"
+            name="green"
+            id="green"
+            min="0"
+            max="255"
+            value="255"
+          />
+          <input type="text" disabled="disabled" value="255" />
+        </fieldset>
+        <fieldset>
+          <label for="blue">(B) Azul:</label>
+          <input
+            type="range"
+            name="blue"
+            id="blue"
+            min="0"
+            max="255"
+            value="255"
+          />
+          <input type="text" disabled="disabled" value="255" />
+        </fieldset>
+      </form>
+
+      <div id="color"></div>
+    </div>
+  </body>
+</html>
