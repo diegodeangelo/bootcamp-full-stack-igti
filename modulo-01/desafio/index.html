@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio - Módulo 01</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css"
+      integrity="sha256-qS+snwBgqr+iFVpBB58C9UCxKFhyL03YHpZfdNUhSEw="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title is-size-1">
+            Pesquisa de usuários
+          </h1>
+        </div>
+      </div>
+    </section>
+    <section class="busca">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <div class="loader"></div>
+            <form id="busca-form">
+              <fieldset class="control">
+                <input
+                  id="busca"
+                  class="input is-primary"
+                  type="text"
+                  autocomplete="off"
+                  placeholder="Digite aqui o primeiro nome da pessoa"
+                />
+                <button class="button is-primary">Buscar</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="resultados">
+      <div class="container">
+        <div class="columns">
+          <div class="column usuarios"></div>
+          <div class="column estatisticas"></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
