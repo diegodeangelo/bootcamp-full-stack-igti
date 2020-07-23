@@ -1,0 +1,25 @@
+.numeracao {
+  font-weight: bold;
+  width: 5%;
+}
+
+.descricao {
+  width: 60%;
+}
+
+.valor {
+  width: 20%;
+}
+
+.actions {
+  width: 15%;
+}
+
+.titulo {
+  font-weight: bold;
+  display: block;
+}
+
+.actions a {
+  padding: 0;
+}

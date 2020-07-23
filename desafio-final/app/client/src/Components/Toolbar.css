@@ -1,0 +1,10 @@
+.fields {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.fields .btn {
+  margin-right: 5px;
+  min-width: 220px;
+}
