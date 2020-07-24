@@ -1,10 +1,6 @@
 import React from "react";
 import "./DateSelect.css";
-
-const CURRENT_YEAR = (new Date).getFullYear();
-
-const YEARS = [CURRENT_YEAR - 1, CURRENT_YEAR, CURRENT_YEAR + 1];
-const MONTHS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+import PERIODS from "../helpers/periods";
 
 export default function DateSelect() {
   return (
@@ -16,9 +12,9 @@ export default function DateSelect() {
 
         <select class="browser-default">
           <option value="" selected></option>
-          {YEARS.map(year => {
-            return (<option value="" selected>{year}</option>)
-          }}
+          {PERIODS.map((period) => {
+            return <option value="">{period}</option>;
+          })}
         </select>
 
         <a class="aves-effect waves-light btn">
