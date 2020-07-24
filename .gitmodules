@@ -1,0 +1,6 @@
+[submodule "modulo-04/desafio/grades-app"]
+	path = modulo-04/desafio/grades-app
+	url = https://github.com/diegodeangelo/grades-app
+[submodule "modulo-04/desafio/grades-api"]
+	path = modulo-04/desafio/grades-api
+	url = https://github.com/diegodeangelo/grades-api
