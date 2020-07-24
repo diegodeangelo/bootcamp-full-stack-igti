@@ -1,0 +1,14 @@
+.date_select {
+  display: flex;
+  justify-content: center;
+}
+
+.date_select div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.date_select a {
+  margin: 0 5px;
+}
